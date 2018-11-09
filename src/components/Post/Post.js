@@ -3,12 +3,14 @@ import classes from './Post.css';
 
 const post = (props) => {
     return(
-        < >
-            <div className="Post">
-                <div className="Title">Title</div>
-                <div className="Author">Author</div>
+        
+            <div className={classes.Post}>
+                <div className={classes.Title}>{props.title}</div>
+                <div className={classes.Author}>Author</div>
             </div>
-        </ >
+
+        
+        
     );
 }
 

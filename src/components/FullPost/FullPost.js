@@ -1,13 +1,13 @@
 import React from 'react';
-import FullPost from './FullPost.css';
+import classes from './FullPost.css';
 
-const fullPost= () => {
+const fullPost= (props) => {
     return(
         < >
-            <div className="FullPost">
-                <div className="Title">Title</div>
-                <div className="Content">Content</div>
-                <button className="Delete">Delete</button>
+            <div className={classes.FullPost}>
+                <div className={classes.Title}>Title</div>
+                <div className={classes.Content}>Content</div>
+                <button className={classes.Delete}>Delete</button>
             </div>
         </ >
     );
