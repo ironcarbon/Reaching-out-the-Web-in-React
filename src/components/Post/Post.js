@@ -4,7 +4,7 @@ import classes from './Post.css';
 const post = (props) => {
     return(
         
-            <div className={classes.Post}>
+            <div className={classes.Post} onClick={props.clicked}>
                 <div className={classes.Title}>{props.title}</div>
                 <div className={classes.Author}>{props.author}</div>
             </div>
