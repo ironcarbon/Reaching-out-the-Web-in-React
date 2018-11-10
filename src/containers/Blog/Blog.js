@@ -43,7 +43,7 @@ class Blog extends Component{
 
         return(
             <div>
-                <section class="Posts">
+                <section className="Posts">
                     {posts}
                 </section>
                 <section>
